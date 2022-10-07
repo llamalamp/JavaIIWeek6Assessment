@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Kennys Movie Warehouse</title>
+</head>
+<body>
+
+<h1>Kenny's Movie Warehouse Inventory Screen</h1>
+
+<h3>Use form to add to inventory or choose other option below</h3>
+<br>
+<br>
+<form action = "addMovieServlet" method="post">
+Title: <input type ="text" name = "title">
+<br>
+<br>
+Quantity: <input type = "text" name = "quantity">
+<br>
+<br>
+<input type = "submit" value="Add Movie">
+</form> <br />
+<br>
+<a href = "showAllMoviesServlet">View the complete list</a>
+<br>
+<a href = "addCustomerServlet">Customer screen</a>
+<br>
+<a href = "showAllOrdersServlet">See all orders</a>
+
+
+</body>
+</html>
